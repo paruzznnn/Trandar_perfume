@@ -409,7 +409,7 @@ function tt($key, $lang) {
             <article class="news-card">
                 <a href="#">
                     <div class="news-image">
-                        <img src="http://localhost/origami_website/perfume//public/product_images/69606aab5081a_1767926443.jpg" 
+                        <img src="http://localhost/origami_website/perfume//public/product_images/69645f1665b2c_1768185622.jpg" 
                              alt="News Article"
                              loading="lazy"
                              width="400" 
@@ -445,7 +445,7 @@ function tt($key, $lang) {
             <article class="news-card">
                 <a href="#">
                     <div class="news-image">
-                        <img src="http://localhost/origami_website/perfume//public/product_images/69606aab47d80_1767926443.jpg" 
+                        <img src="http://localhost/origami_website/perfume//public/product_images/69645f25dea49_1768185637.jpg" 
                              alt="News Article"
                              loading="lazy"
                              width="400" 

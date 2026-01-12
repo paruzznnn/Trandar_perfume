@@ -321,30 +321,6 @@ function tt($key, $lang) {
    <?php include 'template/header.php'; ?>
     
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        :root {
-            --luxury-black: #000000;
-            --luxury-white: #ffffff;
-            --luxury-gray: #666666;
-            --luxury-light-gray: #f5f5f5;
-            --accent-gold: #C9A55A;
-            --transition: cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background: var(--luxury-white);
-            color: var(--luxury-black);
-            overflow-x: hidden;
-            line-height: 1.6;
-        }
-
-        /* Hero Section - Cinematic */
         .hero-about {
             position: relative;
             height: 100vh;
@@ -765,7 +741,7 @@ function tt($key, $lang) {
     <!-- Hero Section -->
     <section class="hero-about">
         <div class="hero-video-bg">
-            <img src="http://localhost/origami_website/perfume//public/product_images/695df2f65583b_1767764726.png" 
+            <img src="http://localhost/origami_website/perfume//public/product_images/69645f1667b00_1768185622.jpg" 
                  alt="AI Perfume"
                  loading="eager">
         </div>
@@ -782,7 +758,7 @@ function tt($key, $lang) {
     <!-- Story Section -->
     <section class="story-section">
         <div class="story-image">
-            <img src="http://localhost/origami_website/perfume//public/product_images/69606aab4a333_1767926443.jpg" 
+            <img src="http://localhost/origami_website/perfume//public/product_images/69645f1664212_1768185622.jpg" 
                  alt="Our Story"
                  loading="lazy">
         </div>

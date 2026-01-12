@@ -612,8 +612,10 @@ $languages = [
 <!-- HEADER -->
 <header class="header">
     <div class="header-content">
-        <a href="?" class="logo">PERFUME</a>
-        
+
+        <a href="?" class="logo">
+    <img src="/origami_website/perfume//public/product_images/696463601df83_1768186720.png" alt="Perfume Luxury Logo" style="height: 50px;">
+</a>
         <nav class="nav">
             <?php foreach ($navbarItems as $item): ?>
                 <?php
