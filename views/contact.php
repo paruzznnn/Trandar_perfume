@@ -131,29 +131,6 @@ $contact_info = [
    <?php include 'template/header.php'; ?>
     
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        :root {
-            --luxury-black: #000000;
-            --luxury-white: #ffffff;
-            --luxury-gray: #666666;
-            --luxury-light-gray: #f8f8f8;
-            --accent-gold: #C9A55A;
-            --transition: cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background: var(--luxury-white);
-            color: var(--luxury-black);
-            overflow-x: hidden;
-            line-height: 1.6;
-        }
-
         /* Hero Section */
         .contact-hero {
             padding: 200px 200px;
