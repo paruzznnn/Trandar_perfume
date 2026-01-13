@@ -863,6 +863,104 @@ $languages = [
         border: 2px solid white;
     }
 }
+
+/* ========================================
+   RESPONSIVE สำหรับหน้าจอขนาด 450px หรือเล็กกว่า
+   ======================================== */
+@media (max-width: 450px) {
+    /* ลดขนาด header actions */
+    .header-actions {
+        gap: 8px;
+    }
+
+    /* ซ่อนปุ่ม Search */
+    /* .header-actions .action-btn[aria-label="Search"] {
+        display: none !important;
+    } */
+
+    /* ลดขนาดปุ่มที่เหลือ */
+    .action-btn {
+        width: 28px;
+        height: 28px;
+        font-size: 11px;
+    }
+
+    /* ลดขนาด AI Avatar ใน header */
+    #aiAvatar {
+        width: 28px;
+        height: 28px;
+        border: 1.5px solid var(--luxury-black);
+    }
+
+    /* ลดขนาด cart badge */
+    .cart-badge {
+        width: 16px;
+        height: 16px;
+        font-size: 9px;
+        top: -6px;
+        right: -6px;
+    }
+
+    /* ปรับขนาด logo ให้เล็กลง */
+    .logo img {
+        height: 35px;
+    }
+
+    /* ลด padding ของ header */
+    .header-content {
+        padding: 15px 15px;
+    }
+
+    /* ปรับ hamburger ให้เล็กลง */
+    .hamburger span {
+        width: 22px;
+        height: 2px;
+    }
+
+    /* ลดขนาด language flag ถ้ายังแสดง */
+    .language-flag {
+        width: 16px;
+        height: 12px;
+    }
+
+    .language-current {
+        padding: 6px 8px;
+    }
+}
+
+/* ========================================
+   RESPONSIVE เพิ่มเติมสำหรับหน้าจอที่เล็กมาก (<380px)
+   ======================================== */
+@media (max-width: 380px) {
+    .header-actions {
+        gap: 6px;
+    }
+
+    .action-btn {
+        width: 26px;
+        height: 26px;
+        font-size: 10px;
+    }
+
+    #aiAvatar {
+        width: 26px;
+        height: 26px;
+    }
+
+    .cart-badge {
+        width: 14px;
+        height: 14px;
+        font-size: 8px;
+    }
+
+    .logo img {
+        height: 32px;
+    }
+
+    .header-content {
+        padding: 12px 12px;
+    }
+}
 </style>
 
 <!-- HEADER -->
